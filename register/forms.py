@@ -14,3 +14,9 @@ class RegistrationForm(forms.Form):
         email = self.cleaned_data['email']
         # Add any additional validation or uniqueness checks for the email field
         return email
+
+
+
+class LoginForm(forms.Form):
+    username = forms.CharField(label='Username')
+    password = forms.CharField(label='Password', widget=forms.PasswordInput)

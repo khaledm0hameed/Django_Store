@@ -74,6 +74,10 @@ TEMPLATES = [
 WSGI_APPLICATION = 'Django_store.wsgi.application'
 
 
+#AUTH_USER_MODEL = 'accounts.User'
+
+
+
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
